@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
-select emp.employee_id, emp.department_id
-from Employee emp
+select employee_id, department_id
+from Employee
 where primary_flag='Y' union
 select employee_id,department_id
 from Employee
